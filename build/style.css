@@ -1,0 +1,136 @@
+.nav {
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav>div>h1{
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+}
+.nav-features> ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-family: Poppins;
+/* font-size: 48px; */
+font-weight: 400;
+line-height: 72px;
+text-align: left;
+
+    
+    
+}
+.nav-features>ul>li{
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.nav-user-access{
+    display: flex;
+    align-items: center;
+    /* margin-right: 30px; */
+
+    
+}
+.nav-user-access>a{
+    text-decoration: none;
+    color: black;
+}
+.nav-user-access>button{
+    margin-left: 10px;
+    background-color: darkorange;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    border-radius: 15px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 80px;
+}
+.main-img>img{
+    width: 400px;
+}
+.main-text{
+    padding-top: 80px;
+    max-width: 550px;
+    padding-bottom: 100px;
+}
+.main-text>h3{
+color: skyblue;
+font-size: 30px;
+font-weight: 400;
+}
+.main-text>p{
+letter-spacing: 3px;
+font-size: 50px;
+}
+.main-text>button{
+background-color: darkorange;
+border:none ;
+padding: 15px 25px 15px 25px;
+border-radius: 10px;
+}
+
+/* login page style */
+.login-page{
+    background: linear-gradient(80deg,darkorange,brown);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.login-main{
+    display: flex;
+    padding-top: 50px;
+
+    
+}
+.login-main_links{
+    background-color: white;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+
+}
+
+
+
+.login-main>img{
+    width: 380px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.login-main_link{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 5px, solid, black;
+}
+
+.login-main_links>li{
+    list-style: none;
+   
+}
+.login-main_links>li>button{
+    border-radius: 30px;
+    background-color: white;
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border-color: #333333;
+
+}
